@@ -717,6 +717,7 @@ public class home extends javax.swing.JFrame {
                     name.setBorder(border);
                     allValid = false; 
                 }else{
+                   
                     name1.setText("\t Correct Format!");
                     name1.setForeground(Color.green);
                     
