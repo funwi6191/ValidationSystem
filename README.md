@@ -114,4 +114,19 @@ Possible future improvements include:
 
 ## 👨‍💻 Author
 
-Developed as a Java desktop application project using Java Swing and NetBeans.
+**Funwi Checy**
+
+Junior Software Developer
+
+This project was developed as part of my software development studies and demonstrates my practical experience with Java, Java Swing, GUI development, input validation, event handling, and Git/GitHub version control.
+
+### 💻 Skills Demonstrated
+
+* Java
+* Java Swing
+* GUI Development
+* Input Validation
+* Event Handling
+* Object-Oriented Programming
+* Git
+* GitHub
