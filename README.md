@@ -71,6 +71,23 @@ ValidationSystem/
 6. Enter the required information.
 7. Submit the information for validation.
 
+
+## 🔍 Validation Rules
+
+The application checks the information entered by the user before accepting the form.
+
+Examples of validation include:
+
+* **Name and Surname:** Checks that the required name fields are not left empty and contain appropriate characters.
+* **ID / Student Number:** Checks that the identification field contains the required information and follows the expected format.
+* **Age / Date of Birth:** Checks that the entered age or date information is valid.
+* **Gender:** Ensures that a gender option has been selected.
+* **Contact Number:** Checks that a valid contact number is provided.
+* **Email Address:** Checks that the email follows the required email format.
+
+If invalid information is detected, the system provides feedback so that the user can correct the information before submitting the form.
+
+
 ## 🎯 Project Purpose
 
 The purpose of this project is to demonstrate practical Java programming skills, including:
