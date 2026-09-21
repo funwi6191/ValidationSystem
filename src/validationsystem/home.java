@@ -679,10 +679,10 @@ public class home extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:  //submit buuton
-        String uname = name.getText();
-        String sname = surname.getText();
-        String uemail = email.getText();
-        String number = contact.getText();
+        String uname = name.getText().trim();
+        String sname = surname.getText().trim();
+        String uemail = email.getText().trim();
+        String number = contact.getText().trim();
         
         boolean allValid = true;
         
@@ -773,7 +773,7 @@ public class home extends javax.swing.JFrame {
             email.setBorder(border);
             allValid = false;
         }else{
-            if(uemail.contains("@") && !uemail.startsWith("@")){ 
+            if(uemail.matches("^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+$")){ 
                 if(uemail.length() > 50){
                     email1.setText("Invalid Format!, less than 50 char");
                     email1.setForeground(Color.red); 
@@ -782,23 +782,13 @@ public class home extends javax.swing.JFrame {
                     email.setBorder(border);
                     allValid = false;
                 }else{
-                    if(uemail.endsWith(".com") || uemail.endsWith(".yahoo")){
                         email1.setText("\t Correct Format!");
                         email1.setForeground(Color.green);
                         
                         Border border = BorderFactory.createLineBorder(Color.green, 2);
                         email.setBorder(border);
                         //allValid = true;
-                    }else{
-                        email1.setText("\t Must end with .com or .yahoo");
-                        email1.setForeground(Color.red);
-                        
-                        Border border = BorderFactory.createLineBorder(Color.red, 2);
-                        email.setBorder(border);
-                        allValid = false;
                     }
-                    
-                }
             }else{
                 email1.setText("\t Invalid Email Format!, ");
                 email1.setForeground(Color.red);
