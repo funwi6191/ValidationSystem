@@ -10,16 +10,25 @@ The system provides feedback when information is incorrect and confirms when the
 
 ## ✨ Features
 
-* 👤 Name and surname validation
-* 🆔 ID / student number validation
-* 🎂 Age / date of birth validation
-* ⚧️ Gender selection
-* 📱 Contact number validation
-* 📧 Email address validation
-* ✅ Validation feedback
-* ❌ Error detection
-* 🖥️ User-friendly graphical interface
+The system includes validation for the following user information:
+
+| Field                  | Validation                                                |
+| ---------------------- | --------------------------------------------------------- |
+| 👤 Name and Surname    | Checks that the name is entered correctly                 |
+| 🆔 ID / Student Number | Validates the identification number                       |
+| 🎂 Age / Date of Birth | Checks that the age or date information is valid          |
+| ⚧️ Gender              | Allows the user to select a gender                        |
+| 📱 Contact Number      | Validates the contact number                              |
+| 📧 Email Address       | Checks that the email address follows the required format |
+
+### Additional Features
+
+* ✅ Clear validation feedback
+* ❌ Error detection and messages
+* 🖥️ User-friendly Java Swing interface
 * 🖼️ Custom icons and visual elements
+* 🔄 Easy-to-use form interaction
+
 
 ## 🛠️ Technologies Used
 
